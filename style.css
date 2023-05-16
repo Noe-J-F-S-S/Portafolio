@@ -308,7 +308,7 @@ html{
 }
 @keyframes mysql {
     0%{width: 0%;}
-    100%{width: 60%;}
+    100%{width: 65%;}
 }
 .skills .skill .net{
     width: 0%;
@@ -317,7 +317,7 @@ html{
 }
 @keyframes net {
     0%{width: 0%;}
-    100%{width: 60%;}
+    100%{width: 34%;}
 }
 
 /*professional skill*/

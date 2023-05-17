@@ -221,12 +221,13 @@ html{
 .sobremi iframe{
     cursor: pointer;
     border: 2px solid #fff;
-    width: 60%;
+    width: 100%;
     display: block;
     margin: 20px auto;
     color: #fff;
     position: relative;
     z-index: 10;
+    min-width: 250px;
 }
 
 
@@ -367,16 +368,16 @@ html{
 }
 @keyframes creatividad {
     0%{width: 0%;}
-    100%{width: 90%;}
+    100%{width: 80%;}
 }
-.skills .skill .dedicacion{
+.skills .skill .perseverancia{
     width: 0%;
-    animation: 2s dedicacion forwards;
-    -webkit-animation: 2s dedicacion forwards;
+    animation: 2s perseverancia forwards;
+    -webkit-animation: 2s perseverancia forwards;
 }
-@keyframes dedicacion {
+@keyframes perseverancia {
     0%{width: 0%;}
-    100%{width: 65%;}
+    100%{width: 85%;}
 }
 .skills .skill .project{
     width: 0%;

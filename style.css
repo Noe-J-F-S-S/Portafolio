@@ -43,6 +43,10 @@ html{
     padding: 3px;
     transition: .5s;
     text-decoration: none;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
 }
 .contenedor-header header nav ul li a:hover{
     color: #1CB698;
@@ -195,6 +199,9 @@ html{
     color: #fff;
     position: relative;
     z-index: 10;
+}
+.sobremi button a{
+    color: #fff;
 }
 .sobremi button .overlay{
     position: absolute;
